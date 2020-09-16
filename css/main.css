@@ -45,6 +45,7 @@ h5,
 h6 {
   color: var(--title-text-color);
 }
+/* header */
 
 /* logo  */
 
@@ -67,6 +68,10 @@ h6 {
 }
 
 /* site-nav */
+
+.navigation {
+  display: inline;
+}
 .navigation .link {
   color: #212121;
 
@@ -75,7 +80,7 @@ h6 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation .view-link {
+.navigation .view {
   color: var(--primary-logo-color);
 
   font-weight: 500;

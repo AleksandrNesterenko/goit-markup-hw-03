@@ -67,7 +67,7 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation .view-link {
+.navigation .view {
   color: var(--primary-logo-color);
 
   font-weight: 500;
