@@ -162,8 +162,13 @@ ul {
   background-color: var(--secondary-fon-color);
 }
 
-.hero .title {
-  padding: 200px 452px 30px 452px;
+.conteiner > h1 {
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--primary-fon-color);
 
   font-weight: 900;
@@ -174,9 +179,10 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.hero .button {
-  display: flex;
-  margin: 0 auto;
+.conteiner > .button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding: 10px 32px;
   min-width: 200px;
   height: 50px;
