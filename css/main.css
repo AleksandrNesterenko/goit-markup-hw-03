@@ -161,13 +161,14 @@ ul {
   height: 600px;
   background-color: var(--secondary-fon-color);
 }
+.hero > .conteiner {
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
-.conteiner > h1 {
-  display: block;
-  margin-top: 200px;
+.conteiner .title-hero {
   margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
 
   color: var(--primary-fon-color);
 
@@ -180,11 +181,6 @@ ul {
 }
 
 .conteiner > .button {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
-  display: block;
-  padding: 10px 32px;
   min-width: 200px;
   height: 50px;
   border: 0;
@@ -201,18 +197,15 @@ ul {
 
 /* advantages */
 
-.advantages-list {
-  /* background-color: teal; */
-  padding: 94px 0;
+.advantages > .conteiner {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.advantages-list .item:not(:last-child) {
+.advantages-list > li:not(:last-child) {
   margin-right: 30px;
 }
-
 .advantages-list .title {
-  margin-bottom: 10px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -228,13 +221,19 @@ ul {
 
 /* about */
 
-.about .title {
-  text-align: center;
+.about > .conteiner {
+  flex-direction: column;
+  padding-bottom: 94px;
 }
 
-.about .item {
-  padding-top: 50px;
-  padding-bottom: 94px;
+.about .title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .about .item:not(:last-child) {
@@ -243,38 +242,45 @@ ul {
 
 /* .command */
 
-.section-command {
+.command {
   background-color: var(--supporting-fon-color);
+}
+
+.command > .conteiner {
+  flex-direction: column;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section-command .title {
-  padding-top: 94px;
-  padding-bottom: 50px;
+.command .title {
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
+.foto > img {
+  margin-bottom: 30px;
+}
+.foto > .name {
+  margin-bottom: 10px;
+}
 
 .conteiner .foto {
+  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  /* background-color: teal; */
 
   background-color: var(--primary-fon-color);
 
   height: 368px;
   width: 270px;
 }
-
 .conteiner .foto:not(:last-child) {
   margin-right: 30px;
 }
 
 .name {
-  margin: 30px 0 10px 0;
-
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -282,8 +288,6 @@ ul {
 }
 
 .profession {
-  padding-bottom: 30px;
-
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -298,10 +302,11 @@ ul {
   background-color: var(--secondary-fon-color);
 }
 
-.footer .conteiner {
+.footer > .conteiner {
   flex-direction: column;
   align-items: flex-start;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* logo  */
@@ -311,7 +316,7 @@ ul {
 }
 
 .footer .logo {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* address  */
@@ -320,12 +325,8 @@ ul {
   flex-direction: column;
 }
 
-.footer-address li {
-  display: block;
-}
-
-.footer-address li:not(:last-child) {
-  padding-bottom: 9px;
+.footer-address > li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address .geo {
