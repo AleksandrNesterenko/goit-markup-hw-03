@@ -222,6 +222,10 @@ ul {
 
 /* about */
 
+/* .about {
+  background-color: teal;
+} */
+
 .about > .conteiner {
   flex-direction: column;
   padding-bottom: 94px;
@@ -298,7 +302,6 @@ ul {
 /* footer */
 
 .footer {
-  height: 252px;
 
   background-color: var(--secondary-fon-color);
 }

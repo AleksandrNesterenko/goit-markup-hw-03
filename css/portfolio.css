@@ -177,7 +177,7 @@ ul {
   padding-bottom: 94px;
 }
 
-.nav-project > .filtr {
+.nav-project {
   margin-bottom: 50px;
 }
 
@@ -243,8 +243,6 @@ ul {
 /* footer */
 
 .footer {
-  height: 252px;
-
   background-color: var(--secondary-fon-color);
 }
 
